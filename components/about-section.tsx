@@ -30,6 +30,9 @@ export function AboutSection() {
                   <p className="text-dusty text-base sm:text-lg font-medium">
                     Para você cultivar em casa e preparar sua própria bebida fermentada.
                   </p>
+                  <p className="text-dusty text-base sm:text-lg font-medium mt-2">
+                    Porção grãos de kefir - colher de chá R$ 20
+                  </p>
                 </CardContent>
               </Card>
               <Card className="bg-white border-none">
@@ -38,9 +41,10 @@ export function AboutSection() {
                   <p className="text-dusty text-base sm:text-lg font-medium">
                     Kefir fermentado por 24 horas, feito apenas com leite integral e grãos de kefir, sem aditivos.
                   </p>
-                  <p className="text-dusty text-base sm:text-lg font-medium mt-2">
-                    Disponível em embalagens de 500ml e 1 litro.
-                  </p>
+                  <ul className="text-dusty text-base sm:text-lg font-medium mt-2 space-y-1">
+                    <li>500ml R$ 15</li>
+                    <li>1 litro R$ 26</li>
+                  </ul>
                 </CardContent>
               </Card>
             </div>
