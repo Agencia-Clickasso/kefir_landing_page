@@ -56,7 +56,7 @@ export function SiteFooter() {
           </div>
         </div>
         <div className="mt-8 border-t border-sage-foreground/10 pt-8 text-center text-sm font-medium">
-          <p>© 2024 Kefir Vitalis. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Kefir Vitalis. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
