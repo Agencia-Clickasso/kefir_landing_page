@@ -57,6 +57,17 @@ export function SiteFooter() {
         </div>
         <div className="mt-8 border-t border-sage-foreground/10 pt-8 text-center text-sm font-medium">
           <p>© {new Date().getFullYear()} Kefir Vitalis. Todos os direitos reservados.</p>
+          <p className="mt-2 text-sm">
+            Desenvolvido por{' '}
+            <Link 
+              href="https://www.clickasso.com.br" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-rose-700 hover:text-rose-800 transition-colors"
+            >
+              clickasso
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
